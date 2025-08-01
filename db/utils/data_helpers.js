@@ -14,7 +14,6 @@ function extractComponentsInfo(spellData) {
 				if (spell.components.m.cost) {
 					materialEntry.cost = spell.components.m.cost;
 				}
-				console.log(spell.components.m);
 				if (spell.components.m.consume) {
 					materialEntry.consume = spell.components.m.consume;
 				}
